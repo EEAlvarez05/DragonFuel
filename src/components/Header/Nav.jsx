@@ -26,7 +26,7 @@ function Nav() {
       </button>
       <div
         className={
-          "bg-primary flex flex-col py-12 px-6 w-full h-screen absolute -z-10 left-0 transition-all duration-300 ease-in-out md:flex-row md:static md:w-auto md:h-auto md:p-0 md:translate-y-0 md:transition-none md:bg-transparent" +
+          "bg-primary flex flex-col py-12 px-6 w-full h-auto absolute -z-10 left-0 transition-all duration-300 ease-in-out md:flex-row md:static md:w-auto md:h-auto md:p-0 md:translate-y-0 md:transition-none md:bg-transparent" +
           (isOpen ? " top-full" : " -top-[1000%]")
         }
       >

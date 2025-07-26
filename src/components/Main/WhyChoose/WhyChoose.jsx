@@ -5,7 +5,7 @@ function WhyChoose() {
     return ( 
         <section className="flex flex-col gap-10 md:gap-24 py-10">
             <div className="p-3 flex flex-col justify-center items-center gap-8">
-                <h2 className="text-3xl md:text-4xl">
+                <h2 className="text-3xl md:text-4xl text-center">
                     ¿Por qué elegir DragonFuel?
                 </h2>
                 <h4 className="text-[20px]">
