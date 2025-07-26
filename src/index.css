@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #383838;
+  --color-secondary: #666666;
+  --color-accent: #9b9b9b;
+  --color-text: #fff;
+  --color-text-secondary: #000;
+  --color-hover: #d3d3d3;
+  --font-logo: "Jolly Lodger", system-ui;
+  --text-4xs: 40px
+}
+
+@layer base {
+  :root[data-theme="DragonFuel"] {
+    --color-primary: #02021e;
+    --color-secondary: #00276c;
+    --color-accent: #64acff;
+    --color-text: #fff;
+    --color-text-secondary: #000;
+    --color-hover: #96b3ff;
+  }
+}
+
+html{
+  @apply bg-primary text-white
+}
