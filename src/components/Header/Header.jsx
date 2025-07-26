@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import NavIcon from "./NavIcon";
 function Header() {
     return ( 
-        <div className="bg-primary h-[100px] flex justify-evenly items-center relative z-50">
+        <div className="bg-primary h-[50px] flex justify-evenly items-center fixed w-full z-50">
             <Logo />
             <Nav />
             <div className="hidden md:flex">
