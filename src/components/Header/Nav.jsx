@@ -31,16 +31,13 @@ function Nav() {
         }
       >
         <ul className="flex flex-col gap-12 text-2xl md:flex-row md:text-[20px]">
-          <a href="#">
-            {" "}
+          <a href="#home">
             <li>Inicio</li>
           </a>
-          <a href="#">
-            {" "}
+          <a href="#products">
             <li>Productos</li>
           </a>
-          <a href="#">
-            {" "}
+          <a href="#community">
             <li>Comunidad</li>
           </a>
           <div className="md:hidden">
