@@ -30,7 +30,7 @@ function Flavors() {
         }}>
           <CardFlavors name={"Original"}/>
           <CardFlavors name={"Frutal"}/>
-          <CardFlavors name={""}/>
+          <CardFlavors name={"IceFire Citrus"}/>
         </div>
       </div>
       <button className="button2 py-2 px-4 rounded-3xl cursor-pointer font-semibold">
